@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="gisae-cobol-axis2-ws">
+	<description>
+		Web service que solicita la ejecución de un programa Cobol Gisae
+	</description>
+	<parameter name="ServiceClass">com.grupoversia.gisae.ws.CallCobolProgram
+	</parameter>
+	<operation name="callCobolProgram" mep="http://www.w3.org/2004/08/wsdl/in-out" />
+	<messageReceivers>
+		<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out"
+			class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</messageReceivers>
+</service>
