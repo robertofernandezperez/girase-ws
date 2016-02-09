@@ -24,7 +24,7 @@ public class GisaeFileUtilsTest extends TestCase {
 	private String ficheroTmp = "files/20151209124359-RANDOM-INPUT-PARAMS";
 
 	private String resultadoOk = "fila 1\nfila 2\nfila 3\n...\nfila n";
-	private String resultadoError = "Aqui se deberia explicar la razon del problema encontrado en la ejecución del programa Cobol...";
+	private String resultadoError = "Aqui se debería explicar la razón del problema encontrado en la ejecución del programa Cobol...";
 	private int numeroLineas = 5;
 	
 	private String[] params = { "param-1", "param-2", "param-3", "param-n" };
